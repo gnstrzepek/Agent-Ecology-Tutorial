@@ -138,7 +138,7 @@ public class Guest : MonoBehaviour
         Vector3 guestPosition = transform.position;
         Vector3 destinationPosition = Destination.transform.position;
         float distance = AgentWalkDistance(guestPosition, destinationPosition, Color.magenta);
-        Debug.Break();
+        //Debug.Break();
 
         //test all conveyances
         _currentConveyance = null;
